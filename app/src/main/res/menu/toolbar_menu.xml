@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Search"
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom|collapseActionView"/>
+
+
+    <item
+        android:title="New Group"
+        android:id="@+id/group"/>
+    <item
+        android:title="New Broadcast"
+        android:id="@+id/broadcast"/>
+    <item
+        android:title="Linked Devices"
+        android:id="@+id/linked"/>
+    <item
+        android:title="Setting"
+        android:id="@+id/setting"/>
+
+
+
+
+</menu>
