@@ -23,10 +23,8 @@ class HomeFragment : Fragment(), View.OnClickListener {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Inisialisasi ScrollView
         scrollView = view.findViewById(R.id.lmagang)
 
-        // Inisialisasi ImageView
         val tugas1: ImageView = view.findViewById(R.id.tugas1)
         tugas1.setOnClickListener(this)
 

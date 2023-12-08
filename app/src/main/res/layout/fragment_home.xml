@@ -43,7 +43,7 @@
                 android:id="@+id/tugas1"
                 android:layout_width="308dp"
                 android:layout_height="131dp"
-                android:src="@drawable/tugas1"/>
+                android:src="@drawable/tugas1" />
 
             <ImageView
                 android:id="@+id/tugas2"

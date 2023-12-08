@@ -26,7 +26,6 @@ class SharedPreferenceFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_shared_preference, container, false)
 
         sharedPreferences = requireActivity().getSharedPreferences("MyPrefs", Context.MODE_PRIVATE)
@@ -64,7 +63,6 @@ class SharedPreferenceFragment : Fragment() {
         }
 
         imageView.setOnClickListener {
-            // Pindah ke HomeFragment tanpa animasi
             requireActivity().supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, HomeFragment())
                 .commit()
